@@ -67,7 +67,6 @@ We use the data test/crawl_demo_url_list.txt as an example:
 1. Clean chunks and create data folder:
 ```
 rm -rf chunks/*
-rm -rf data/*
 ```
 
 2. Split the list into chunks: The first argument is the file. The second argument is the number of chunks.
@@ -98,23 +97,9 @@ server 3 >> ./a.out 5 10
 
 5. Get results in a new data folder
 
-### Demo
-
-```
-bash run_distribute.sh test/crawl_demo_url_list.txt 10
-```
 
 ## Disclaimer and Reference
 
 This is a research prototype, use at your own risk.
 
 If you feel this tool is useful, cite the tool as :dog2: SquatPhish :dog2: is highly appreiciated.
-
-
-## Acknowledgement
-
-Core contributor: ke tian @ririhedou
-
-Thanks hang hu @0xorz for reproduction testing.
-
-Current version is 0.0.2, updated at June 04 2018
