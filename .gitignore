@@ -2,8 +2,8 @@ node_modules/**
 
 data/*
 chunks/*
-test/*
-!test/demo.js
+test/**
+test/
 
 *.log
 

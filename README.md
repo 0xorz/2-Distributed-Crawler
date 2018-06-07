@@ -35,7 +35,7 @@ bash install.sh
 Run the demo:
 
 ```
-node test/demo.js
+node demo.js
 ```
 <p float="left">
  <img src="https://github.com/SquatPhish/2-Distributed-Crawler/blob/master/test/fb-signin.screen.png" width="500" height="250" />
