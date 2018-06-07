@@ -35,7 +35,7 @@ bash install.sh
 Run the demo:
 
 ```
-node demo.js
+node test/demo.js
 ```
 <p float="left">
  <img src="https://github.com/SquatPhish/2-Distributed-Crawler/blob/master/test/fb-signin.screen.png" width="500" height="250" />
@@ -71,6 +71,7 @@ rm -rf data/*
 ```
 
 2. Split the list into chunks: The first argument is the file. The second argument is the number of chunks.
+urls.csv will be splited in 10 csv files under chunks/.
 
 ```
 python3 split.py urls.csv 10
