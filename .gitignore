@@ -1,7 +1,7 @@
 node_modules/**
 
-data/**
-chunks/**
+data/*
+chunks/*
 
 *.log
 *.out
