@@ -50,7 +50,7 @@ function checkDirectorySync(directory) {
 async function run_file_in_distributed_fashion(chunkId)
 {
 
-    var res = read_candidates("./chunks/" + chunkId.toString() + ".txt")
+    var res = read_candidates("./chunks/" + chunkId.toString() + ".csv")
     var urlList = res.urlList;
     var nameList = res.nameList;
 

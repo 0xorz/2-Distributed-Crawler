@@ -67,13 +67,13 @@ We use the data test/crawl_demo_url_list.txt as an example:
 1. Clean chunks and create data folder:
 ```
 rm -rf chunks/*
-mkdir data
+rm -rf data/*
 ```
 
 2. Split the list into chunks: The first argument is the file. The second argument is the number of chunks.
 
 ```
-python3 parse.py test/crawl_demo_url_list.txt 10
+python3 split.py urls.csv 10
 ```
 
 
