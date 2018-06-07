@@ -30,24 +30,6 @@ A distributed crawler to capture screenshots and log the redirection
 bash install.sh
 ```
 
-## How to Use
-
-Run the demo:
-
-```
-node demo.js
-```
-<p float="left">
- <img src="https://github.com/SquatPhish/2-Distributed-Crawler/blob/master/test/fb-signin.screen.png" width="500" height="250" />
- <img src="https://github.com/SquatPhish/2-Distributed-Crawler/blob/master/test/fb-signin.screen.mobile.png" width="150" height="250" />
-</p>
-
-
-You will get a web version and a mobile version screenshot, their redirections and HTML source in test folder.
-
-The usage can be customized by following function calls in demo.js.
-
-
 ## Distributed Crawling :rocket: :rocket: :rocket:
 
 We provide a distributed crawling framework to crawl a large number of URLs.
